@@ -83,6 +83,6 @@
 
 @media (max-width: 500px) {
   .searchResults__price > h2 {
-    display: none;
+    font-size: 1.4rem;
   }
 }
