@@ -1,40 +1,52 @@
 .search {
   position: absolute;
-  top: 35px;
+  top: 3.5rem;
   left: 25%;
-  width: 100vw;
+  width: 100%;
   z-index: 100;
+  min-width: 10rem;
 }
-
+@media (max-width: 780px) {
+  .search {
+    left: 0;
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .search {
+    left: 0rem;
+    width: 40%;
+  }
+}
 .search > h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 559px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 55.9rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   background-color: white;
   position: absolute;
   left: 0;
-  top: 345px;
+  top: 34.5rem;
 }
 
 .search > input {
-  width: 539px;
-  padding: 20px;
+  width: 53.9rem;
+  padding: 2rem;
   position: absolute;
   left: 0;
-  height: 30px;
-  top: 420px;
+  height: 3rem;
+  top: 42rem;
   border: none;
-  font-size: 20px;
+  font-size: 2rem;
   color: #f73c40;
   font-weight: 600;
 
-  margin-top: -5px;
+  margin-top: -0.5rem;
 }
 
 .search > input:focus {
@@ -44,15 +56,20 @@
 .search > button {
   position: absolute;
   left: 0;
-  top: 480px;
+  top: 48rem;
   text-transform: inherit !important;
   background-color: #ff7779;
   color: white;
-  width: 579px;
-  letter-spacing: 2px;
+  width: 57.9rem;
+  letter-spacing: 0.2rem;
 }
 
 .search > button:hover {
   background-color: #f73c40;
   color: white;
+}
+@media (max-width: 400px) {
+  .search > button {
+    text-align: left !important;
+  }
 }

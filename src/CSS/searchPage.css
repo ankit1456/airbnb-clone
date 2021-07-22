@@ -1,16 +1,16 @@
 .searchPage__info {
-  padding: 15px;
+  padding: 1.5rem;
 }
 .searchPage__info > p {
-  margin-bottom: 10px;
-  font-size: 14px;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
 }
 .searchPage__info > h2 {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   text-transform: capitalize;
 }
 .searchPage__info > button {
-  border-radius: 30px;
+  border-radius: 3rem;
   text-transform: inherit;
-  margin: 5px;
+  margin: 0.5rem;
 }
